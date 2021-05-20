@@ -1,0 +1,27 @@
+$base-color: #FF4F3A;
+$paragraph-color: #616161;
+$heading-color: #111111;
+
+
+$heading-fontSize: 48px;
+$subHeading-fontSize: 20px;
+$paragraph-fontSize: 16px;
+
+
+
+body {
+    margin: 0;
+    h1 {
+        color: $heading-color;
+        font-size: $heading-fontSize;
+        margin-bottom: 0.4em ;
+        font-weight: 500;
+        font-family: montserrat;
+    }
+    h2 {
+        color: $paragraph-color;
+        font-size: $subHeading-fontSize;
+        margin: 0.8em 0;
+        font-family: montserrat;
+    }
+}
