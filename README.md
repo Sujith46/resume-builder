@@ -8,7 +8,7 @@ This application is developed using -
 
 ## Getting Started
 
-    Clone this repository or
+Clone this repository or
 
     git clone https://github.com/Sujith46/resume-builder.git
     cd resume_builder
@@ -29,4 +29,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 You can easily view this application which is hosted using netlify server - 
 
-    https://proresumebuilder.netlify.app/
+[https://proresumebuilder.netlify.app/](https://proresumebuilder.netlify.app/)
