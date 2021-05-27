@@ -9,13 +9,13 @@ function Footer() {
     <footer className="Footer">
       <h4>Powered By</h4>
       <nav>
-        <a href="https://reactjs.org/" target="_blank">
-          <img className="Footer__Icon" src={ReactIcon} alt="react-icon"></img>
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+          <img className="Footer__Icon" src={ReactIcon} alt="react-icon" ></img>
         </a>
-        <a href="https://redux.js.org/" target="_blank">
+        <a href="https://redux.js.org/" target="_blank" rel="noreferrer">
           <img className="Footer__Icon" src={ReduxIcon} alt="redux-icon"></img>
         </a>
-        <a href="https://www.netlify.com/" target="_blank">
+        <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
           <img className="Footer__Icon" src={NetlifyIcon} alt="netlify-icon"></img>
         </a>
       </nav>
