@@ -46,7 +46,7 @@ function ResumePreview(props) {
 
             { showEducation && <div className="EducationDetails">
                 <div className="HeaderContainer">
-                    <img src={EducationIcon} className="HeaderContainer__Icon"></img>
+                    <img src={EducationIcon} className="HeaderContainer__Icon" alt="education-icon"></img>
                     <h2 className="EducationDetails__Header">Education</h2>
                     <div className="Line"></div>
                 </div>
@@ -66,7 +66,7 @@ function ResumePreview(props) {
 
            { showExperience && <div className="ExperienceDetails">
                 <div className="HeaderContainer">
-                    <img src={ExperienceIcon} className="HeaderContainer__Icon"></img>
+                    <img src={ExperienceIcon} className="HeaderContainer__Icon" alt="experience-icon"></img>
                     <h2 className="ExperienceDetails__Header">Experience</h2>
                     <div className="Line"></div>
                 </div>
@@ -85,7 +85,7 @@ function ResumePreview(props) {
 
         { showSkills && <div className="SkillsDetails">
                 <div className="HeaderContainer">
-                    <img src={SkillsIcon} className="HeaderContainer__Icon"></img>
+                    <img src={SkillsIcon} className="HeaderContainer__Icon" alt="skills-icon"></img>
                     <h2 className="SkillsDetails__Header">Skills</h2>
                     <div className="Line"></div>
                 </div>
