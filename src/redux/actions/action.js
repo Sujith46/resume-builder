@@ -1,17 +1,10 @@
 import {
-    RESUME_RESET_PROFILE,
-    RESUME_SET_PROFILE
+    RESUME_SET_PROFILE_DETAILS,
 } from "../ActionTypes";
 
 export function setResumeProfile(profile) {
     return {
-        type: RESUME_SET_PROFILE,
+        type: RESUME_SET_PROFILE_DETAILS,
         payload: profile
-    };
-};
-
-export function resetResumeProfile() {
-    return {
-        type: RESUME_RESET_PROFILE
     };
 };

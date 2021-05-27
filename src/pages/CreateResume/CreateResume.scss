@@ -1,0 +1,54 @@
+.ResumeActions {
+    padding: 1.6em 0;
+    .Actions {
+        text-align: center;
+    }
+}
+
+.ResumeContent {
+    display: flex;
+    .FormWrapper {
+        flex: 1;
+    }
+    .ResumePreviewWrapper {
+        flex: 1;
+    }   
+}
+.ResumeContainer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #324f2f8c;
+}
+.ResumePreviewWrapper {
+    flex: 1;
+    padding: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    background-color: white;
+
+}
+.CardContent {
+    margin-bottom: 2em;
+}
+
+.ExperienceDetails__item, .EducationDetails__item {
+        padding: 2em 0;
+        margin-bottom: 2em;
+        border-top: 1px dashed grey;
+
+        &:first-child {
+            border: 0;
+            padding: 0;
+        }
+}
+
+.ActionButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    &__End {
+        text-align: right;
+    }
+}

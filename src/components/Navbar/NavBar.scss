@@ -1,16 +1,16 @@
-.navbar-wrapper {
-    .navigation {
-        padding: 1.5em 1em;
-        display: flex;
-        align-items: center;
-        h2 {
-            width: 100%;
-            text-align: center;
-        }
-    }
+.NavBar {
+  &__Navigation {
+    padding: 1.5em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid rgb(241, 241, 241);
-    margin-bottom: 2em;
-    .logo-img {
-        width: 40px;
+    h2 {
+      width: 100%;
+      text-align: center;
     }
+  }
+  &__Logo-img {
+    width: 40px;
+  }
 }

@@ -1,0 +1,136 @@
+%iconsStyle {
+  content: "";
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 0.8rem;
+  margin-top: 0.5em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+%contentMain {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+%contentSubCategory {
+  text-transform: capitalize;
+  color: grey;
+}
+
+.Resume__Preview {
+  .PersonalDetails {
+    background: rgb(67, 89, 89);
+    background: linear-gradient(
+      90deg,
+      rgba(67, 89, 89, 1) 0%,
+      rgba(67, 89, 89, 1) 50%
+    );
+    padding: 1.6em 1em;
+    margin-bottom: 2em;
+
+    &__Name {
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 28px;
+      margin: 0.4em 0;
+    }
+
+    &__ContactContainer {
+      color: #afafaf;
+    }
+    &__Email {
+      &::before {
+        @extend %iconsStyle;
+        background-image: url("../../assets/icons/email.svg");
+      }
+    }
+
+    &__Phone {
+      &::before {
+        @extend %iconsStyle;
+        background-image: url("../../assets/icons/call.svg");
+      }
+    }
+    &__Address {
+      color: #afafaf;
+
+      &::before {
+        @extend %iconsStyle;
+        background-image: url("../../assets/icons/pin.svg");
+      }
+    }
+  }
+  .EducationDetails,
+  .ExperienceDetails,
+  .SkillsDetails {
+    &__Card {
+      display: flex;
+      margin-bottom: 1em;
+    }
+
+    &__Header {
+      font-weight: 600;
+      color: black;
+    }
+    &__Year {
+      flex: 2;
+    }
+    .ContentContainer {
+      flex: 7;
+    }
+    .HeaderContainer {
+      display: flex;
+      align-items: center;
+
+      &__Icon {
+        width: 30px;
+        margin-right: 0.4em;
+      }
+      .Line {
+        height: 3px;
+        width: 100%;
+        margin-left: 1em;
+        border-bottom: 1px dashed grey;
+        opacity: 50%;
+      }
+    }
+  }
+
+  .EducationDetails {
+    &__Degree {
+      @extend %contentMain;
+    }
+    &__Institute {
+      @extend %contentSubCategory;
+    }
+  }
+
+  .ExperienceDetails {
+    &__Designation {
+      @extend %contentMain;
+    }
+    &__Company {
+      @extend %contentSubCategory;
+    }
+  }
+  .SkillsDetails {
+    &__Tag {
+      padding: 0.3em 0.7em;
+      background-color: #2f4f4f;
+      color: white;
+      border-radius: 7px;
+      margin: 0 0.4em;
+    }
+  }
+}
+
+.rbt-token {
+  background-color: #2f4f4f;
+  color: white;
+}
+
+@import "~react-bootstrap-typeahead/css/Typeahead.css";

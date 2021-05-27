@@ -1,8 +1,24 @@
-.vector-img {
+.Home {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+
+  &__Vector-img {
     width: 500px;
-}
-.home-container {
-    text-align: center;
+  }
+
+  .btn {
+    padding: 0.6rem 2rem;
+    font-size: 18px;
+  }
+  span {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #dc3545;
+  }
 }
 
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/bootstrap.scss";
