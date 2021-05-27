@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from '../pages/Home/Home';
-// import PageNotFound from '../app/pages/PageNotFound/PageNotFound';
 import CreateResume from '../pages/CreateResume/CreateResume';
 
 const Routes = () => {
