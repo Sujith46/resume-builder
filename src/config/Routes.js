@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from '../pages/Home/Home';
 // import PageNotFound from '../app/pages/PageNotFound/PageNotFound';
@@ -11,9 +11,6 @@ const Routes = () => {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/create" component={CreateResume} />
-                {/* <Route exact path="/about" component={About} /> */}
-                {/* <Route exact path="/page-not-found" component={PageNotFound} />
-                <Redirect to="/page-not-found" /> */}
             </Switch>
         </BrowserRouter>
     );
