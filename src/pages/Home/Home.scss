@@ -8,6 +8,11 @@
 
   &__Vector-img {
     width: 500px;
+    opacity: 0;
+  }
+
+  &__Heading, &__SubHeading &__Button{
+    opacity: 0;
   }
 
   .btn {
